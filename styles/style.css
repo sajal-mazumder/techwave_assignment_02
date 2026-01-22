@@ -47,11 +47,11 @@ nav>h2{
     color: white;
     font-weight: 800;
     font-size: 2em;
-    animation: animation  infinite ease-in 7s  ;
+    animation: animation  infinite ease-in 5s  ;
 }
 @keyframes animation {
     to{
-        transform: rotate(360deg);
+        transform: rotate(-15deg);
     }
 }
 
@@ -220,6 +220,7 @@ nav>h2>span{
 .why_section{
     background: #230e3d;
     margin-top: 50px;
+    padding-bottom: 70px;
 }
 .choose_h1{
     color: white;
