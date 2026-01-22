@@ -1,0 +1,47 @@
+
+/* 576px */
+@media screen and (max-width:576px) {
+   
+    .nav_ul{
+        display: none;
+    }
+    .nav_btn{
+        display: none;
+    }
+    .line_bar{
+        display:inline-block;
+    }
+    
+    nav>h2{
+        animation: none;
+    }
+    .hero_banner{
+        position: relative;
+        
+    }
+   .circle{
+    position: absolute;
+    /* top: -10%; */
+    left: 25%;
+    width: 200px;
+    height: 200px;
+}
+    .mic{
+        position: absolute;
+        top: 10px;
+        left: 38.5%;
+        /* bottom: 0%; */
+        transform: translate(-10%, 30%);
+
+        width: 80px;
+        height: 120px;
+    }
+    .header{
+    min-height: 400px;
+    width: 100%;
+    }
+    .banner_content{
+        padding-top: 250px;
+        padding-bottom: 50px;
+    }
+}
