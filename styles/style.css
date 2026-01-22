@@ -11,7 +11,71 @@
 
 /* shared styles */
 
+body{
+    /* background-color: black; */
+    font-family: roboto;
+}
+
 .ninety_five{
-    max-width: 95%;
+    max-width: 90%;
     margin: 0 auto;
+}
+
+.dis_flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+/* header section */
+
+.header{
+    background-image: url(../srcs/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+.nav{
+    padding-top: 20px;
+}
+nav>h2{
+    color: white;
+    font-weight: 800;
+    font-size: 2em;
+    animation: animation  infinite ease-in 5s  ;
+}
+@keyframes animation {
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+nav>h2>span{
+    color: #d906c9;
+}
+.nav_ul{
+    list-style: none;
+}
+.nav_ul a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav_btn{
+    background: linear-gradient( 90deg, yellow, purple, rgb(128, 0, 34) );
+    background-color: purple;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+.nav_btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2em;
 }
