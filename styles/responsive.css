@@ -44,12 +44,21 @@
         padding-top: 250px;
         padding-bottom: 50px;
     }
+    .dis_btn{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
     .about_card{
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     }
     .why_cards{
     grid-template-columns: repeat(1, 1fr);
+    }
+    .features_cards{
+    grid-template-columns: repeat(1, 1fr);
+    justify-self: center;
     }
 
 }
