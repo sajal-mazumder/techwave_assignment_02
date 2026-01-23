@@ -353,3 +353,50 @@ nav>h2>span{
     padding-top: 15px;
     color: #01ff87;
 }
+
+/* meet the host section */
+.meet_section{
+    background-color: #1a0a2d;
+    margin: 40px auto;
+}
+.meet_section>h1{
+    color: white;
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 0;
+}
+.meet_display{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+    background: #240c44;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+}
+.meet_display>img{
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.card_content>h2{
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.card_content>p{
+    color: rgb(172, 170, 170);
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+.card_icons{
+    display: flex;
+    gap: 30px;
+}
+.card_icons>img{
+    border: 2px solid #1a0a2d;
+    border-radius: 50%;
+    padding: 10px;
+}
