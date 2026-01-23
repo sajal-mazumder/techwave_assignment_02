@@ -66,5 +66,9 @@
     .card_content>h2{
         text-align: center;
     }
+    .footer_img{
+    grid-template-columns: repeat(2, 1fr);
+    
+    }
 
 }

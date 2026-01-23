@@ -428,8 +428,9 @@ nav>h2>span{
     color: #d906c9;
 }
 .footer_img{
-    display: flex;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
 }
 .footer_icons{
     display: flex;
